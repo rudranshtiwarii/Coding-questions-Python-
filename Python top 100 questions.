@@ -1,0 +1,48 @@
+Q1) Python Program to check if a Number Is Positive Or Negative
+
+num = 15
+if num > 0:
+    print('Positive')
+elif num < 0:
+    print('Negative')
+else:
+    print('Zero')
+    
+__________________________________________________________________________________________________________________________________________________________________
+    
+Q2) Python Program to Check Whether a Number is Even or Odd.
+
+num = int(input("Enter a Number:")) 
+if num % 2 == 0: 
+  print("Given number is Even") 
+else: 
+  print("Given number is Odd")
+  
+ __________________________________________________________________________________________________________________________________________________________________
+ 
+ Q3) Find the Sum of the First N Natural Numbers in Python
+ 
+ num = 5
+sum = 0
+for i in range(num+1):
+  sum+=i
+print(sum)
+
+__________________________________________________________________________________________________________________________________________________________________
+
+Q4) Python program to print sum of N natural numbers
+
+number,sum = 6,0
+for i in range(number+1):
+  sum+=i
+print(sum)
+
+__________________________________________________________________________________________________________________________________________________________________
+
+Q5)Find the Sum of Numbers in a given Range in Python
+
+num1, num2 = 3, 6
+sum = 0
+for i in range(num1,num2+1):
+  sum+=i
+print(sum)
